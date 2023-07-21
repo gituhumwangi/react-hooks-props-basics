@@ -222,7 +222,7 @@ We still need a `Comment` component that we can use for each comment in a
 `BlogPost`. The `Comment` component would look something like this:
 
 ```jsx
-function Comment(props) {
+function Comment(props) {r
   return <div>{props.commentText}</div>;
 }
 ```
